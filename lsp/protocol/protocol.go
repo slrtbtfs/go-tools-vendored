@@ -7,10 +7,10 @@ package protocol
 import (
 	"context"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/telemetry/log"
-	"golang.org/x/tools/internal/telemetry/trace"
-	"golang.org/x/tools/internal/xcontext"
+	"github.com/slrtbtfs/go-tools-vendored/jsonrpc2"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/log"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/trace"
+	"github.com/slrtbtfs/go-tools-vendored/xcontext"
 )
 
 type DocumentUri = string

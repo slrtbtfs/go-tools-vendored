@@ -6,8 +6,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/telemetry/log"
+	"github.com/slrtbtfs/go-tools-vendored/jsonrpc2"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/log"
 )
 
 type Server interface {
