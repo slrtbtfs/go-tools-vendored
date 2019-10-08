@@ -7,7 +7,7 @@ package export
 import (
 	"context"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
 )
 
 // Null returns an observer that does nothing.

@@ -7,7 +7,7 @@ package export
 import (
 	"context"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
 )
 
 // Multi returns an exporter that invokes all the exporters given to it in order.

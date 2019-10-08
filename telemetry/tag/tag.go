@@ -11,8 +11,8 @@ import (
 	"context"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/export"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/export"
 )
 
 //TODO: Do we need to do something more efficient than just store tags

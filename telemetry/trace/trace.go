@@ -9,9 +9,9 @@ import (
 	"context"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/export"
-	"golang.org/x/tools/internal/telemetry/tag"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/export"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/tag"
 )
 
 func StartSpan(ctx context.Context, name string, tags ...telemetry.Tag) (context.Context, func()) {

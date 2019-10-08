@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/tools/internal/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
 )
 
 // LogWriter returns an observer that logs events to the supplied writer.
