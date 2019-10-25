@@ -12,8 +12,8 @@ import (
 	"sort"
 	"sync"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/metric"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/metric"
 )
 
 func New() *Exporter {

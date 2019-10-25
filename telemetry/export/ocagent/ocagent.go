@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/export"
-	"golang.org/x/tools/internal/telemetry/export/ocagent/wire"
-	"golang.org/x/tools/internal/telemetry/tag"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/export"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/export/ocagent/wire"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/tag"
 )
 
 type Config struct {

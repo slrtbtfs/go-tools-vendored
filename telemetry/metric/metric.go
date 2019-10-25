@@ -9,10 +9,10 @@ import (
 	"context"
 	"sort"
 
-	"golang.org/x/tools/internal/telemetry"
-	"golang.org/x/tools/internal/telemetry/export"
-	"golang.org/x/tools/internal/telemetry/stats"
-	"golang.org/x/tools/internal/telemetry/tag"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/export"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/stats"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/tag"
 )
 
 // Scalar represents the construction information for a scalar metric.

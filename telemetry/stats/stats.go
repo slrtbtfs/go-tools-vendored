@@ -10,7 +10,7 @@ package stats
 import (
 	"context"
 
-	"golang.org/x/tools/internal/telemetry/unit"
+	"github.com/slrtbtfs/go-tools-vendored/telemetry/unit"
 )
 
 // Int64Measure is used to record integer values.
